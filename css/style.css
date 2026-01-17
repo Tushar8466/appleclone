@@ -107,10 +107,11 @@ nav {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;              
-    justify-content: center;     
-    padding-top: 40px;           
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
 }
+
 .watches-content {
     display: flex;
     flex-direction: column;
@@ -118,6 +119,7 @@ nav {
     align-items: center;
     text-align: center;
 }
+
 .watches-title {
     height: 45px;
     width: 400px;
@@ -131,6 +133,7 @@ nav {
     text-align: center;
     padding-top: 30px;
 }
+
 .watches-subtitle {
     color: black;
     font-size: 20px;
@@ -138,12 +141,14 @@ nav {
     font-size: 30px;
     margin-top: 20px;
 }
-.watches-buttons{
+
+.watches-buttons {
     display: flex;
     justify-content: center;
 
 }
-.watches-btn1{
+
+.watches-btn1 {
     padding: 15px 25px;
     background-color: rgb(2, 139, 250);
     color: white;
@@ -151,7 +156,8 @@ nav {
     margin-right: 20px;
     margin-block: 30px;
 }
-.watches-btn2{
+
+.watches-btn2 {
     padding: 15px 25px;
     background-color: transparent;
     color: rgb(2, 139, 250);
@@ -159,17 +165,19 @@ nav {
     border: 1px solid rgb(2, 139, 250);
     margin-block: 30px;
 }
-.watches-btn2:hover{
+
+.watches-btn2:hover {
     background-color: rgb(2, 139, 250);
     color: white;
     cursor: pointer;
 }
 
 /* ipad section */
-.ipad-section{
+.ipad-section {
     margin-top: 15px;
 }
-.ipad-image{
+
+.ipad-image {
     height: 600px;
     width: 100%;
     background-image: url('https://www.apple.com/v/home/ck/images/heroes/ipad-air/hero_ipad_air_avail__c34ycq52exg2_large_2x.jpg');
@@ -177,4 +185,205 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.ipad-content {
+    padding-block: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ipad-title {
+    height: 45px;
+    width: 200px;
+    background-image: url('https://www.apple.com/v/home/ck/images/logos/ipad-air/hero_logo_ipad_air__ejixj9pic0uq_large_2x.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ipad-subtitle {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.ipad-buttons {
+    display: flex;
+    justify-content: center;
+}
+.ipad-btn1 {
+    padding: 15px 25px;
+    background-color: rgb(2, 139, 250);
+    color: white;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-block: 30px;
+}
+.ipad-btn2 {
+    padding: 15px 25px;
+    background-color: transparent;
+    color: rgb(2, 139, 250);
+    border-radius: 30px;
+    border: 1px solid rgb(2, 139, 250);
+    margin-block: 30px;
+}
+.ipad-btn2:hover {
+    background-color: rgb(2, 139, 250);
+    color: white;
+    cursor: pointer;
+}
+
+/* promo section */
+.promo-section {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.macbook-section{
+    height: 580px;
+    width: 49%;
+    background-image: url('https://www.apple.com/v/home/ck/images/promos/macbook-pro-m5/promo_macbook_pro_m5__gnwzdhijhm6a_large_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.macbook-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-block: 50px;
+}
+.macbook-title{
+    height: 35px;
+    width: 300px;
+    color: white;
+    font-size:35px;
+}
+.macbook-subtitle{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 10px;
+}
+.macbook-buttons{
+    display: flex;
+    justify-content: center;
+}
+.macbook-btn1{
+    padding: 10px 20px;
+    background-color: rgb(2, 139, 250);
+    color: white;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-block: 15px;
+    font-weight: 200;
+}
+.macbook-btn2{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgb(2, 139, 250);
+    border-radius: 30px;
+    border: 1px solid rgb(2, 139, 250);
+    margin-block: 15px;
+    font-weight: 200;
+}
+.macbook-btn2:hover{
+    background-color: rgb(2, 139, 250);
+    color: white;
+    cursor: pointer;
+}
+.watch-ultra-section{
+    height: 580px;
+    width: 49%;
+    background-image: url('https://www.apple.com/v/home/ck/images/promos/apple-watch-ultra-3/promo_apple_watch_ultra3__bwvslhbxx99e_large_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.watch-ultra-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-block: 50px;
+}
+.watch-ultra-title{
+    height: 35px;
+    width: 300px;
+    background-image: url('https://www.apple.com/v/home/ck/images/logos/apple-watch-ultra-3/promo_logo_apple_watch_ultra3__dehvqgn07cgi_large_2x.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.watch-ultra-subtitle{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 10px;
+}
+.watch-ultra-buttons{
+    display: flex;
+    justify-content: center;
+}
+.watch-ultra-btn1{
+    padding: 10px 20px;
+    background-color: rgb(2, 139, 250);
+    color: white;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-block: 15px;
+    font-weight: 200;
+}
+.watch-ultra-btn2{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgb(2, 139, 250);
+    border-radius: 30px;
+    border: 1px solid rgb(2, 139, 250);
+    margin-block: 15px;
+    font-weight: 200;
+}
+.watch-ultra-btn2:hover{
+    background-color: rgb(2, 139, 250);
+    color: white;
+    cursor: pointer;
+}
+.airpods-section{
+    margin-top: 15px;
+    height: 690px;
+    width: 49%;
+    background-image: url('https://www.apple.com/v/home/ck/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_large_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.airpods-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-block: 50px;
+}
+.fitness-section{
+    margin-top: 15px;
+    height: 690px;
+    width: 49%;
+    background-image: url('https://www.apple.com/v/home/ck/images/promos/apple-fitness-plus-ny/promo_apple_fitness_plus_ny__di8hyqkgekya_large_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
 

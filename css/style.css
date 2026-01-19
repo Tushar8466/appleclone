@@ -374,6 +374,51 @@ nav {
     text-align: center;
     padding-block: 50px;
 }
+.airpods-title{
+    height: 35px;
+    width: 300px;
+    font-size: 45px;
+    background-image: url('https://www.apple.com/v/home/ck/images/logos/airpods-pro-3/promo_logo_airpodspro_3__f6xmza7bglei_large_2x.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.airpods-subtitle{
+    color: black;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    font-weight: 200;
+    margin-top:20px;
+    font-weight:300;
+}
+.airpods-buttons{
+    display: flex;
+    justify-content: center;
+}
+.airpods-btn1{
+    padding: 10px 20px;
+    background-color: rgb(2, 139, 250);
+    color: white;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-block: 15px;
+    font-weight: 200;
+}
+.airpods-btn2{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgb(2, 139, 250);
+    border-radius: 30px;
+    border: 1px solid rgb(2, 139, 250);
+    margin-block: 15px;
+    font-weight: 200;
+}
+.airpods-btn2:hover{
+    background-color: rgb(2, 139, 250);
+    color: white;
+    cursor: pointer;
+}
 .fitness-section{
     margin-top: 15px;
     height: 690px;
@@ -383,6 +428,183 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
 }
+.fitness-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-block: 50px;
+}
+.fitness-title{
+    height: 35px;
+    width: 200px;
+    font-size: 45px;
+    background-image: url('https://www.apple.com/v/home/ck/images/logos/apple-fitness-plus-ny/promo_logo_fitness__ghrl68mizmqi_large_2x.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fitness-subtitle{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    margin-top:20px;
+    font-weight:300;
+    width: 50%;
+}
+.fitness-subtitle2{
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 200;
+    margin-top:10px;
+    font-weight:300;
+    width: 50%;
+}
+.fitness-buttons{
+    display: flex;
+    justify-content: center;
+}
+.fitness-btn1{
+    padding: 10px 20px;
+    background-color: rgb(2, 139, 250);
+    color: white;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-block: 15px;
+    font-weight: 200;
+}
+.fitness-btn2{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgb(2, 139, 250);
+    border-radius: 30px;
+    border: 1px solid rgb(2, 139, 250);
+    margin-block: 15px;
+    font-weight: 200;
+}
+.fitness-btn2:hover{
+    background-color: rgb(2, 139, 250);
+    color: white;
+    cursor: pointer;
+}
+.tradein-section{
+    margin-top: 15px;
+    height: 690px;
+    width: 49%;
+    background-image: url('https://www.apple.com/v/home/ck/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tradein-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-block: 50px;
+}
+.tradein-title{
+    height: 40px;
+    width: 200px;
+    font-size: 45px;
+    background-image: url('https://www.apple.com/v/home/ck/images/logos/iphone-tradein/promo_logo_iphone_tradein__7y3gtai5az66_large_2x.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tradein-subtitle{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    margin-top:20px;
+    font-weight:300;
+    width: 50%;
+}
+.tradein-btn1{
+    padding: 10px 20px;
+    background-color: rgb(2, 139, 250);
+    color: white;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-block: 15px;
+    font-weight: 200;
+}
+
+.tradein-btn2:hover{
+    background-color: rgb(2, 139, 250);
+    color: white;
+    cursor: pointer;
+}
+.apple-card-section{
+    margin-top: 15px;
+    height: 690px;
+    width: 49%;
+    background-image: url('https://www.apple.com/v/home/ck/images/promos/apple-card/promo_apple_card__5cm7draujpey_large_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.apple-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-block: 50px;
+}
+.apple-card-title{
+    height: 40px;
+    width: 130px;
+    font-size: 45px;
+    background-image: url('https://www.apple.com/v/home/ck/images/logos/apple-card/logo__dcojfwkzna2q_large_2x.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}   
+.apple-card-subtitle{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    margin-top:20px;
+    font-weight:300;
+    width: 50%;
+}   
+.apple-card-buttons{
+    display: flex;
+    justify-content: center;
+}
+.apple-card-btn1{
+    padding: 10px 20px;
+    background-color: rgb(2, 139, 250);
+    color: white;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-block: 15px;
+    font-weight: 200;
+}   
+.apple-card-btn2{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgb(2, 139, 250);
+    border-radius: 30px;
+    border: 1px solid rgb(2, 139, 250);
+    margin-block: 15px;
+    font-weight: 200;
+}   
+.apple-card-btn2:hover{
+    background-color: rgb(2, 139, 250);
+    color: white;
+    cursor: pointer;
+}
+
+
+
 
 
 
